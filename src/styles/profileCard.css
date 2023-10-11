@@ -1,0 +1,59 @@
+div > img {
+  max-width: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 8px 0;
+  color: #777;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.profileContainer {
+  padding: 20px;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.viewProfile {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.viewProfile button {
+  padding: 8px 16px;
+  background-color: #0077b5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.viewProfile button:hover {
+  background-color: #005fa3;
+}
+
+.viewProfile a {
+  color: white;
+  text-decoration: none;
+}
+
+h1,
+h3 {
+  margin: 8px 0;
+}

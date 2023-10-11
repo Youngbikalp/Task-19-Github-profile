@@ -1,0 +1,76 @@
+.parentBox {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  background-color: #24292e;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: x-large;
+  margin-bottom: 1rem;
+}
+
+.mainContentBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchBox {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.searchBox input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.searchBox input:focus {
+  border-color: #0077b5;
+}
+
+.searchBox button {
+  padding: 0.8rem 1.2rem;
+  background-color: #0077b5;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.searchBox button:hover {
+  background-color: #005fa3;
+}
+
+.profileDataContainer {
+  display: flex;
+  width: 100%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  justify-content: space-around;
+}
+
+.profileInfo {
+  margin: 1.5rem;
+  height: 500px;
+  width: 500px;
+}
+
+.repoDetails {
+  margin: 1.5rem;
+  height: 500px;
+  width: 500px;
+  overflow-y: auto;
+}
