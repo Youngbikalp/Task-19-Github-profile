@@ -1,7 +1,7 @@
 import React from "react";
 import { IReposArrayProps } from "../types/interface";
 import "../styles/repositoryList.css";
-const RepositoryList: React.FC<IReposArrayProps> = ({ repos }) => {
+const RepositoryList: React.FC<IReposArrayProps> = ({ repos = [] }) => {
   return (
     <div className="repositoryContainer">
       <div className="repoTitle">Repositories</div>
